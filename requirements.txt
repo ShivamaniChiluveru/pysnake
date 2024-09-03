@@ -1,0 +1,21 @@
+
+Software Requirements 
+For further development and extensions of this Snake Game in Python, here's a list of packages along with recommended versions that you might consider using:
+
+### Required Package:
+1. PYGAME - `2.1.2` (This is the primary package for creating games in Python and handling graphics, input, and sound.)
+
+### Additional Packages for Extensions:
+1. NUMPY - `1.23.5` (For efficient numerical computations, which can be useful if you plan to implement more complex game logic or AI.)
+2. PILLOW - `9.2.0` (For image processing tasks, like adding custom graphics or textures.)
+3. TKINTER - (built-in with Python) (For creating custom menus, dialog boxes, or more advanced UI elements.)
+4. PYGLET - `2.0.3` (An alternative to Pygame for handling graphics and sound, useful if you want to experiment with different libraries.)
+5. MATPLOTLIB - `3.7.1` (For visualizing game data, like plotting scores or creating graphical representations of game states.)
+
+### Installation
+You can install these packages using pip:
+```bash
+pip install pygame==2.1.2 numpy==1.23.5 pillow==9.2.0 matplotlib==3.7.1 pyglet==2.0.3
+```
+
+These packages will provide a solid foundation for building more advanced features, such as AI opponents, custom graphical assets, or advanced UI elements in your Snake Game.
